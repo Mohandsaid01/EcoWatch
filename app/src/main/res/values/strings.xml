@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">EcoWatch</string>
+
+    <!-- Titles -->
+    <string name="list_title" translatable="false">Monitored species</string>
+    <string name="form_title" translatable="false">New species</string>
+
+    <!-- Labels -->
+    <string name="name_label" translatable="false">Species name</string>
+    <string name="status_label" translatable="false">Conservation status</string>
+    <string name="population_label" translatable="false">Estimated population</string>
+
+    <string name="address_label" translatable="false">Address</string>
+    <string name="lat_label" translatable="false">Latitude</string>
+    <string name="lng_label" translatable="false">Longitude</string>
+
+    <string name="temp_min_label" translatable="false">Min temperature (°C)</string>
+    <string name="temp_max_label" translatable="false">Max temperature (°C)</string>
+    <string name="hum_min_label" translatable="false">Min humidity (%%)</string>
+    <string name="hum_max_label" translatable="false">Max humidity (%%)</string>
+    <string name="my_location" translatable="false">My location</string>
+    <string name="save" translatable="false">Save</string>
+
+    <!-- List -->
+    <string name="empty_list_hint" translatable="false">No species yet.</string>
+    <string name="habitat" translatable="false">Habitat</string>
+    <string name="temp" translatable="false">Temperature</string>
+    <string name="hum" translatable="false">Humidity</string>
+
+    <!-- Errors -->
+    <string name="err_name_required" translatable="false">Name is required.</string>
+    <string name="err_need_one_threshold" translatable="false">Define at least temperature or humidity thresholds.</string>
+    <string name="err_temp_minmax" translatable="false">Min temperature must be &lt;= max.</string>
+    <string name="err_hum_minmax" translatable="false">Min humidity must be &lt;= max.</string>
+    <string name="err_hum_range" translatable="false">Humidity must be between 0 and 100%%.</string>
+    <string name="err_perm_denied" translatable="false">Location permission denied.</string>
+    <string name="err_location_unavailable" translatable="false">Location unavailable. Enable GPS and try again.</string>
+
+    <!-- Notifications -->
+    <string name="channel_name" translatable="false">Eco alerts</string>
+    <string name="notif_title" translatable="false">EcoWatch alert</string>
+    <string name="notif_template_with_addr" translatable="false">%1$s needs attention near %2$s</string>
+    <string name="notif_template_no_addr" translatable="false">%1$s needs attention</string>
+
+    <!-- Sensors -->
+<string name="sensor_hum_now" translatable="false">Humidité actuelle :</string>
+<string name="sensor_temp_now" translatable="false">Température ambiante actuelle :</string>
+<string name="sensor_unavailable" translatable="false">Capteur indisponible</string>
+<string name="copy_hum_to_min" translatable="false">Copier vers min</string>
+<string name="copy_hum_to_max" translatable="false">Copier vers max</string>
+
+    <!-- Greeting -->
+<string name="greeting_template" translatable="false">%1$s, quels sont vos plans pour today ?</string>
+<string name="hello_morning" translatable="false">Bonjour</string>
+<string name="hello_evening" translatable="false">Bonsoir</string>
+
+    <!-- Search & sort -->
+    <string name="search_hint" translatable="false">Search species</string>
+    <string name="sort_by" translatable="false">Sort</string>
+    <string name="sort_name" translatable="false">Name (A–Z)</string>
+    <string name="sort_created" translatable="false">Newest</string>
+    <string name="sort_tempmax" translatable="false">Max temperature</string>
+
+
+
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+
+</resources>
